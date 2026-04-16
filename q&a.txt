@@ -53,8 +53,8 @@ There are multiple labs including computer labs and science labs for practical l
 Where is the computer lab?
 Computer labs are located on upper floors in the IT/Science section of the building.
 
-Where is the library?
-The library is situated inside the college building, usually on a dedicated floor with study space.
+//Where is the library? 
+ The library is located on the 6th floor.
 
 What is the timing of this college?
 College runs in shifts, typically from 7:00 AM to around 5:00 PM depending on junior and degree sections.
@@ -72,8 +72,8 @@ Teachers are generally supportive, experienced, and focused on academics and stu
 Is the staff helpful?
 Yes, administrative staff assists students with admissions, exams, and documentation.
 
-Where is the staff room?
-The staff room is located inside the main academic building, usually on a faculty-designated floor.
+//Where is the staff/faculty room?
+The staff/faculty room is located inside the main academic building, usually on a faculty-designated floor.
 
 ⸻
 
@@ -82,7 +82,7 @@ The staff room is located inside the main academic building, usually on a facult
 What facilities are available in the college?
 Facilities include library, computer labs, science labs, canteen, gymkhana, seminar hall, and classrooms.
 
-Is there a library?
+//Is there a library?
 Yes, the college has a well-stocked library with books, journals, and study material.
 
 Is there a canteen?
@@ -104,17 +104,21 @@ Wi-Fi is available but may be limited to certain areas like labs or offices.
 Where is the canteen?
 The canteen is located on the ground floor or lower level within the campus.
 
-Where is the library?
-The library is located on one of the main floors inside the building.
+//Where is the library?
+The library is located on the 6th floor inside the building.
 
-Where is the gymkhana?
-The gymkhana is inside the campus, usually on a designated sports/activity floor.
+//Where is the gymkhana? (keyword - gymkhana loaction,located)
+The gymkhana is on Ground floor.
 
 Where is the office?
 The administrative office is near the entrance on the ground floor.
 
 Where is the washroom?
 Washrooms are available on every floor of the building.
+
+//Where is the college fee counter? (need to add)
+If you enter from the left side of the entrance, you will find the fees/admission counter. 
+If you go the right side, you will reach the canteen. 
 
 🎉 Activities & Events
 
@@ -129,3 +133,53 @@ Yes, indoor sports and some outdoor sports activities are conducted.
 
 Are there clubs in the college?
 Yes, there are cultural committees, NSS, and other student clubs.
+
+//@About floors
+
+1st floor
+
+Facilities available on first floor? (Keyword - First floor,Science laboratories,lab,laboratary,Girsls Common)
+Science laboratories, Classrooms, Girls Common Room.
+
+2nd/3rd floors
+
+
+Where is the Administrative Office located? (Keyword - Aministrative office,main staff room)
+The Administrative Office is located on the second floor.
+
+What facilities are available on the third floor? (Keyword- Third floor,board room, chairman’s cabin )
+The third floor includes the board room, chairman’s cabin, guest rooms, computer lab, girls’ locker room with washroom, training restaurant, dining hall, quantity training kitchen, and the bakery & confectionery lab.
+
+On which floor can we find the RPH? (RPH ,RPH located,RPH location)
+The RPH can be found on the second and third floor
+
+4th floor
+
+What is located on the fourth floor? (Keyword - Fourth floor,4th floor)
+The fourth floor includes the Administrative Office (ALSJ), reception, store room, Vice-Principal's cabin, faculty room, coordinator section, Principal's cabin, seminar hall, computer labs, server room, washrooms, medical/rest room, media lab, exam control room, NAAC room, DLLE room, NSS room, and classrooms.
+
+Where are the computer labs located? (Keyword - Computer labs location, comp labs, IT labs)
+Computer Labs I, II, and III are located on the fourth floor.
+
+Is there a medical room on the fourth floor? (Keyword - Medical room, medical, restroom, rest room)
+Yes, there is a medical room/restroom on the fourth floor.
+
+5th floor
+
+What facilities are available on the fifth floor? (Keyword - Fifth floor, 5th floor)
+The fifth floor includes the Administrative Office (ASJC), reception, coordinator section, store room, faculty room, Vice-Principal's cabin, Principal's cabin, classroom, exam control room, and boys' & girls' washrooms.
+
+Where is the Administrative Office (ASJC) located? (Keyword - ASJC, administrative office asjc)
+The Administrative Office (ASJC) is located on the fifth floor.
+
+6th floor
+
+What facilities are available on the sixth floor? (Keyword - Sixth floor, 6th floor)
+The sixth floor includes the Administrative Office (UKS), classrooms, reception, conference room, library, Director's cabin, faculty room, counseling room, auditorium, store room, and boys' & girls' washrooms.
+
+Where is the library located? (Keyword - Library location, library)
+The library is located on the sixth floor.
+Computer Labs I, II, and III are located on the fourth floor.
+
+Is there a medical room on the fourth floor?
+Yes, there is a medical room/restroom on the fourth floor.

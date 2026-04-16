@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","12345@","college_chat");
+$conn = mysqli_connect("localhost","root","","college_chat");
 
 if(!$conn){
     die("Database error");
@@ -43,6 +43,48 @@ elseif(strpos($msg,"institution")!==false || strpos($msg,"campus")!==false){
     $key="institutions";
 }
 
+/* ================== SPECIFIC FLOORS (check before general floor) ================== */
+elseif(strpos($msg,"first floor")!==false){
+    $key="first floor";
+}
+
+elseif((strpos($msg,"administrative office")!==false || strpos($msg,"admin office")!==false) || strpos($msg,"main staff room")!==false){
+    $key="administrative office";
+}
+
+elseif(strpos($msg,"third floor")!==false){
+    $key="third floor";
+}
+
+elseif(strpos($msg,"fourth floor")!==false || strpos($msg,"4th floor")!==false){
+    $key="fourth floor";
+}
+
+elseif((strpos($msg,"computer lab")!==false && strpos($msg,"location")!==false) || strpos($msg,"4th floor")!==false && strpos($msg,"computer")!==false){
+    $key="computer labs location";
+}
+
+elseif((strpos($msg,"medical room")!==false || strpos($msg,"medical")!==false && strpos($msg,"fourth")!==false)){
+    $key="medical room";
+}
+
+elseif(strpos($msg,"fifth floor")!==false || strpos($msg,"5th floor")!==false){
+    $key="fifth floor";
+}
+
+elseif(strpos($msg,"asjc")!==false || (strpos($msg,"administrative office")!==false && strpos($msg,"asjc")!==false)){
+    $key="administrative office asjc";
+}
+
+elseif(strpos($msg,"sixth floor")!==false || strpos($msg,"6th floor")!==false){
+    $key="sixth floor";
+}
+
+elseif(strpos($msg,"rph")!==false){
+    $key="rph";
+}
+
+/* ================== GENERAL FLOOR ================== */
 elseif(strpos($msg,"floor")!==false || strpos($msg,"building")!==false){
     $key="floors";
 }
