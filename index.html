@@ -10,39 +10,53 @@
 
 <body>
 
-<div class="app">
+<div class="landing-container">
 
     <!-- HEADER -->
-    <div class="top">
-        <h2>College AI Assistant</h2>
-        <div class="status-container">
-            <span class="status-dot"></span>
-            <p>Bunts Sangha College - Online</p>
+    <header class="landing-header">
+        <img src="assets/logo.png" alt="College Logo" class="logo">
+        <h1>College AI Assistant</h1>
+        <p>Your intelligent companion for all college inquiries</p>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Get Instant Answers to Your College Questions</h2>
+            <p>Ask about courses, fees, library resources, admissions, and more. Our AI assistant is here to help you navigate your college journey.</p>
+            <a href="chat.html" class="cta-button">Start Chatting</a>
         </div>
-    </div>
+        <div class="hero-image">
+            <img src="assets/user.png" alt="Student chatting" class="hero-img">
+        </div>
+    </section>
 
-    <!-- CHAT AREA -->
-    <div id="chat"></div>
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="feature">
+            <h3>Course Information</h3>
+            <p>Get details about available courses, prerequisites, and schedules.</p>
+        </div>
+        <div class="feature">
+            <h3>Fee Structure</h3>
+            <p>Understand tuition fees, scholarships, and payment options.</p>
+        </div>
+        <div class="feature">
+            <h3>Library Resources</h3>
+            <p>Find books, journals, and digital resources available in our library.</p>
+        </div>
+        <div class="feature">
+            <h3>Admissions Help</h3>
+            <p>Get guidance on admission procedures and requirements.</p>
+        </div>
+    </section>
 
-    <!-- INPUT AREA -->
-    <div class="input-area">
-        <input 
-            type="text" 
-            id="msg" 
-            placeholder="Ask about courses, library, fees..."
-            autocomplete="off"
-        >
-        <button onclick="sendMessage()" id="sendBtn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="22" y1="2" x2="11" y2="13"></line>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-            </svg>
-        </button>
-    </div>
+    <!-- FOOTER -->
+    <footer class="landing-footer">
+        <p>&copy; 2024 Bunts Sangha College. All rights reserved.</p>
+    </footer>
 
 </div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
