@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College AI Assistant</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
@@ -26,6 +28,41 @@
             <p>Ask about courses, fees, library resources, admissions, and more. Our AI assistant is here to help you navigate your college journey.</p>
             <a href="chat.html" class="cta-button">Start Chatting</a>
         </div>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div id="chat">
+        <div class="welcome-screen" id="welcomeScreen">
+            <div class="welcome-content">
+                <img src="assets/welcome_icon.png" alt="Mascot" class="welcome-mascot">
+                <h1>How can I help you today?</h1>
+                <p>I'm your AI assistant for Bunts Sangha College. Ask me anything or try these:</p>
+                
+                <div class="chip-container">
+                    <button class="chip" onclick="quickAction('BCA Course Details')">BCA Course</button>
+                    <button class="chip" onclick="quickAction('Admission Process')">Admissions</button>
+                    <button class="chip" onclick="quickAction('Library timings')">Library</button>
+                    <button class="chip" onclick="quickAction('College Location')">Location</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INPUT AREA -->
+    <div class="input-area">
+        <input 
+            type="text" 
+            id="msg" 
+            placeholder="Ask about courses, library, fees..."
+            autocomplete="off"
+        >
+        <button onclick="sendMessage()" id="sendBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+        </button>
+    </div>
         <div class="hero-image">
             <img src="assets/user.png" alt="Student chatting" class="hero-img">
         </div>
